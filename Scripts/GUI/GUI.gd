@@ -11,7 +11,8 @@ extends CanvasLayer
 @onready var dialog4 = $Dialog/Dialog4
 @onready var dialog5 = $Dialog/Dialog5
 @onready var dialog6 = $Dialog/Dialog6
-@onready var dialog_ship = $Dialog/DialogShip
+@onready var dialog_ship1 = $Dialog/DialogShip1
+@onready var dialog_ship2 = $Dialog/DialogShip2
 @onready var dialog_cave =$Dialog/DialogCave
 @onready var dialog_chest = $Dialog/DialogChest
 @onready var potion = $Lifebars/PotionEffect
@@ -110,8 +111,10 @@ func _on_dialog(interval):
 		dialog5.visible = true
 	if interval == "Dialog6" :
 		dialog6.visible = true
-	if interval == "DialogShip":
-		dialog_ship.visible = true
+	if interval == "DialogShip1":
+		dialog_ship1.visible = true
+	if interval == "DialogShip2":
+		dialog_ship2.visible = true
 	if interval == "DialogCave":
 		dialog_cave.visible = true
 	if interval == "ChestLocked":
@@ -123,7 +126,8 @@ func _on_dialog(interval):
 		dialog4.visible = false
 		dialog5.visible = false
 		dialog6.visible = false
-		dialog_ship.visible = false
+		dialog_ship1.visible = false
+		dialog_ship2.visible = false
 		dialog_cave.visible = false
 		dialog_chest.visible = false
 

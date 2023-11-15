@@ -11,7 +11,6 @@ var bg_bus = AudioServer.get_bus_index("Bg")
 var sfx_bus = AudioServer.get_bus_index("Sfx")
 var songs = [
 	preload("res://PirateSprite/Sounds/Backsound/Overworld/We're Bird People Now.ogg"),
-	preload("res://PirateSprite/Sounds/Backsound/Overworld/Journey Across the Blue.ogg"),
 	preload("res://PirateSprite/Sounds/Backsound/Overworld/Long Road Ahead.ogg"),
 	preload("res://PirateSprite/Sounds/Backsound/Overworld/On The Move.ogg"),
 	preload("res://PirateSprite/Sounds/Backsound/Overworld/World Travelers.ogg")

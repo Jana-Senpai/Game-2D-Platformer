@@ -4,7 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://bsl0nl0vjrdm6" path="res://PirateSprite/Sprites/Interactable/Heart/Get/tile000.png" id="2_yp247"]
 [ext_resource type="Texture2D" uid="uid://dsb3dy681u63i" path="res://PirateSprite/Sprites/Interactable/Heart/Get/tile001.png" id="3_xnynu"]
 [ext_resource type="Texture2D" uid="uid://cboa2t0apmm8t" path="res://PirateSprite/Sprites/Interactable/Heart/Idle/tile000.png" id="4_ra5n4"]
-[ext_resource type="AudioStream" uid="uid://bn6ke0wldx81j" path="res://PirateSprite/Sounds/8BIT_16 BIT 15/Power Up 1.wav" id="4_s85q6"]
 [ext_resource type="Texture2D" uid="uid://mxc80xu66k4i" path="res://PirateSprite/Sprites/Interactable/Heart/Idle/tile001.png" id="5_g8kys"]
 [ext_resource type="Texture2D" uid="uid://bkoquncnl7b17" path="res://PirateSprite/Sprites/Interactable/Heart/Idle/tile002.png" id="6_ejwn5"]
 [ext_resource type="Texture2D" uid="uid://cvbairbv72sdr" path="res://PirateSprite/Sprites/Interactable/Heart/Idle/tile003.png" id="7_qrdob"]
@@ -12,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://c8jakut7yhpq0" path="res://PirateSprite/Sprites/Interactable/Heart/Idle/tile005.png" id="9_7y0qw"]
 [ext_resource type="Texture2D" uid="uid://cjjpfpcfc5f7l" path="res://PirateSprite/Sprites/Interactable/Heart/Idle/tile006.png" id="10_h35kb"]
 [ext_resource type="Texture2D" uid="uid://bh4cb3ed7ejs4" path="res://PirateSprite/Sprites/Interactable/Heart/Idle/tile007.png" id="11_yg7tl"]
+[ext_resource type="AudioStream" uid="uid://b68uflsl778se" path="res://PirateSprite/Sounds/SoundEffect/Random/Power Up 1.wav" id="12_l37tf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wwhpf"]
 size = Vector2(12, 11)
@@ -57,7 +57,7 @@ tracks/2/keys = {
 "clips": [{
 "end_offset": 0.0,
 "start_offset": 0.0,
-"stream": ExtResource("4_s85q6")
+"stream": null
 }],
 "times": PackedFloat32Array(0)
 }
@@ -106,7 +106,7 @@ libraries = {
 }
 
 [node name="Get" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_s85q6")
+stream = ExtResource("12_l37tf")
 volume_db = 2.0
 bus = &"Sfx"
 

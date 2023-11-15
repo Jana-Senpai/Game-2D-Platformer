@@ -10,9 +10,9 @@ func _get_key():
 	have_key = true
 
 func _on_area_2d_area_entered(area):
-	if area.get_parent is Player && !have_key && dialog:
-		dialog = false
+	if area.get_parent() is Player && !have_key && dialog:
 		Main.update_dialog("ChestLocked")
+		dialog = false
 	
 	if area.get_parent() is Player && have_key:
 		$AnimationPlayer.play("Unlocked")

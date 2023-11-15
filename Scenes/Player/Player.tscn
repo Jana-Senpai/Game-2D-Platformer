@@ -23,8 +23,8 @@
 [ext_resource type="Texture2D" uid="uid://dwbs0fqxrdpan" path="res://PirateSprite/Sprites/Player/14-Hit Sword/Hit Sword 04.png" id="20_8wd7a"]
 [ext_resource type="Texture2D" uid="uid://ce3umggek4bll" path="res://PirateSprite/Sprites/Player/Attack/16-Attack 2/Attack 2 02.png" id="21_symc0"]
 [ext_resource type="Texture2D" uid="uid://n0s8v34svq6f" path="res://PirateSprite/Sprites/Player/Attack/16-Attack 2/Attack 2 03.png" id="22_6dg4y"]
-[ext_resource type="AudioStream" uid="uid://1e18fpxxqm3s" path="res://PirateSprite/Sounds/8BIT_16 BIT 15/Jump 1.wav" id="24_rd5mb"]
-[ext_resource type="AudioStream" uid="uid://bhyxqdxgumi8f" path="res://PirateSprite/Sounds/8BIT_16 BIT 15/Hit 1.wav" id="25_08pec"]
+[ext_resource type="AudioStream" uid="uid://dskpl71mk0lot" path="res://PirateSprite/Sounds/SoundEffect/Random/Jump 1.wav" id="24_xi8b0"]
+[ext_resource type="AudioStream" uid="uid://cn1tucn2pc3f4" path="res://PirateSprite/Sounds/SoundEffect/Random/Hit 1.wav" id="25_6ldj0"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pms6u"]
 radius = 9.0
@@ -174,7 +174,7 @@ collision_layer = 2
 script = ExtResource("1_4of7e")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("20_8wd7a")
+texture = ExtResource("17_447qw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
@@ -205,11 +205,11 @@ libraries = {
 }
 
 [node name="Jump" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("24_rd5mb")
+stream = ExtResource("24_xi8b0")
 volume_db = 1.0
 bus = &"Sfx"
 
 [node name="Hit" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("25_08pec")
+stream = ExtResource("25_6ldj0")
 volume_db = 4.0
 bus = &"Sfx"

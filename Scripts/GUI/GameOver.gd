@@ -1,6 +1,6 @@
 extends Control
 
-func _process(delta):
+func _process(_delta):
 	$Control/Score.text = "SCORE : " + str(Main.lose_score)
 
 func _on_restart_pressed():

@@ -58,7 +58,7 @@ offset_top = 415.0
 offset_right = 835.0
 offset_bottom = 457.0
 theme_override_font_sizes/font_size = 24
-text = "NEXT >>>"
+text = "SKIP >>>"
 flat = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

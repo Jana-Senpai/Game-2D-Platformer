@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://c31mhv32n2ho0" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 07.png" id="7_k0ocl"]
 [ext_resource type="Texture2D" uid="uid://br8wmnputtkan" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 08.png" id="8_swr6s"]
 [ext_resource type="Texture2D" uid="uid://dfa0oqsnnk0v1" path="res://PirateSprite/Sprites/Interactable/Flag/Flag 09.png" id="9_c3avd"]
-[ext_resource type="AudioStream" uid="uid://cb4fxopq78qtf" path="res://PirateSprite/Sounds/8BIT_16 BIT 15/Misc 2.wav" id="11_4686v"]
+[ext_resource type="AudioStream" uid="uid://c41v3d3ahol84" path="res://PirateSprite/Sounds/SoundEffect/Random/Misc 2.wav" id="11_pb62w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ci803"]
 size = Vector2(34, 819)
@@ -56,7 +56,7 @@ libraries = {
 }
 
 [node name="Activate" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("11_4686v")
+stream = ExtResource("11_pb62w")
 volume_db = 4.0
 bus = &"Sfx"
 

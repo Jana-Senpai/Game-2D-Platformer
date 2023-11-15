@@ -17,8 +17,8 @@ func _on_timer_timeout():
 	else:
 		$Timer.stop()
 		Main.play_time()
-#		get_tree().change_scene_to_file()
+		get_tree().change_scene_to_file("res://Scenes/UI/Credit.tscn")
 
 
 func _on_button_pressed():
-	pass
+	get_tree().change_scene_to_file("res://Scenes/UI/Credit.tscn")

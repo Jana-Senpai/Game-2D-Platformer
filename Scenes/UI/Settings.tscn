@@ -222,7 +222,7 @@ offset_right = 655.615
 offset_bottom = 132.859
 grow_horizontal = 2
 grow_vertical = 2
-text = "50%"
+text = "80%"
 label_settings = SubResource("LabelSettings_q4jts")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -241,7 +241,7 @@ theme_override_styles/slider = SubResource("StyleBoxFlat_1vtx3")
 theme_override_styles/grabber_area = SubResource("StyleBoxFlat_u5obg")
 theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_q8ntc")
 min_value = -24.0
-max_value = 24.0
+max_value = 6.0
 
 [node name="Slider" type="AudioStreamPlayer2D" parent="Music"]
 position = Vector2(443.499, 257.709)
@@ -375,18 +375,16 @@ alignment = 1
 clip_text = true
 icon_alignment = 2
 expand_icon = true
-item_count = 5
+item_count = 4
 selected = 0
 popup/item_0/text = "We're Bird People Now"
 popup/item_0/id = 1
-popup/item_1/text = "Journy Across the Blue"
+popup/item_1/text = "Long Road Ahead"
 popup/item_1/id = 2
-popup/item_2/text = "Long Road Ahead"
+popup/item_2/text = "On The Move"
 popup/item_2/id = 3
-popup/item_3/text = "On The Move"
+popup/item_3/text = "World Travelers"
 popup/item_3/id = 4
-popup/item_4/text = "World Travelers"
-popup/item_4/id = 5
 
 [node name="Song" type="AudioStreamPlayer2D" parent="Songs"]
 

@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://b8vlrbqt7r5wf" path="res://PirateSprite/Sprites/Interactable/Coin/Coin Effect/03.png" id="7_xcg8i"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hlrwu"]
-radius = 6.0
+radius = 9.49861
 
 [sub_resource type="Animation" id="Animation_labgv"]
 resource_name = "Get"
@@ -85,7 +85,7 @@ _data = {
 script = ExtResource("1_wwxl5")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("5_j7jdm")
+texture = ExtResource("1_plcik")
 
 [node name="GetBox" type="Area2D" parent="."]
 monitorable = false
